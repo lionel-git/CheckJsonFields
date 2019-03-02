@@ -16,7 +16,6 @@ namespace CheckJsonFields
             t.TestDoubleException();
         }
 
-
         static void Main(string[] args)
         {
             Test2(); return;
