@@ -10,8 +10,17 @@ namespace CheckJsonFields
 {
     class Program
     {
+        static void Test2()
+        {
+            var t = new TestE2();
+            t.TestDoubleException();
+        }
+
+
         static void Main(string[] args)
         {
+            Test2(); return;
+
             Console.WriteLine("Hello world");
             string jsonFile = @"c:\tmp\myData.json";
 
